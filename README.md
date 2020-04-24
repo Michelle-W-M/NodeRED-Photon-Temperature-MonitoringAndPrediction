@@ -9,7 +9,7 @@ The purpose of this project is to create a prototype of a temperature monitoring
 ## Hardware:
 * Particle Photon with connected LM35 temperature sensor, connected to your device's WiFi network (Photon is programmed on Particle IDE **this code not included**)
 
-Enter your device details in the `SSE device` nodes. If using another sensor like an Arduino or Raspberry Pi, the sensor input nodes will have to be changed 
+Enter your device details in the `SSE device` nodes. If using another device like an Arduino or Raspberry Pi, the sensor input nodes will have to be changed to match your device.
 
 ##  Software:
 * IFTTT account
@@ -20,12 +20,12 @@ Enter your device details in the `SSE device` nodes. If using another sensor lik
 2. Dtabase storage in Cloudant (feature of IBM Cloud)
 3. Alerts
    1. Alert on the Dashboard
-   2. Email Alert through IFTTT
+   2. Email alert through IFTTT
 4. Health status of the temperature sensor
 5. Prediction of when the instrument will need claibration
 
 ### Dashboard temperature visuals
-- Will be updated every time the Photon pushes data to NodeRED (dependant on the interval programmed on the Particle IDE)
+- Will be updated every time the Photon pushes data to NodeRED (dependent on the interval programmed on the Particle IDE)
 - Can change the layout of the line graph to display different time intervals
 
 ### Database storage
@@ -37,7 +37,7 @@ Enter your device details in the `SSE device` nodes. If using another sensor lik
 - Hook to IFTTT account
 
 ###  Health of Temperature Sensor
-- This is dependant on the temperature sensor type that is used. Here, LM35 is used. Change the vlaue in the `Percent Error` node depending on the type of sensor you are using, which can be found on the product's data sheet
+- This is dependent on the temperature sensor type that is used. Here, LM35 is used. Change the vlaue in the `Percent Error` node depending on the type of sensor you are using, which can be found on the product's data sheet
 
 ###  Predictions
 - The max/min temperatures can be set in the `Output a prediction` node 
