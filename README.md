@@ -7,6 +7,7 @@ The purpose of this project is to create a prototype of a temperature monitoring
 ## Hardware:
 * Particle Photon with connected LM35 temperature sensor, connected to your device's WiFi network (Photon is programmed on Particle IDE **this code not included**)
 
+Enter your device details in the `SSE device` nodes
 If using another sensor like an Arduino or Raspberry Pi, the sensor input nodes will have to be changed 
 
 ##  Software:
