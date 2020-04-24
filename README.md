@@ -17,13 +17,13 @@ Enter your device details in the `SSE device` nodes. If using another sensor lik
 1. Dashboard visuals of current temperature and temperature over time
 2. Dtabase storage in Cloudant (feature of IBM Cloud)
 3. Alerts
-  * Alert on the Dashboard
-  * Email Alert through IFTTT
+  1. Alert on the Dashboard
+  2. Email Alert through IFTTT
 4. Health status of the temperature sensor
 5. Prediction of when the instrument will need claibration
 
 ### Dashboard temperature visuals
-- Will be updated every time the Photon pushes data to NodeRED (dependant on the interavl programmed on the Particle IDE)
+- Will be updated every time the Photon pushes data to NodeRED (dependant on the interval programmed on the Particle IDE)
 - Can change the layout of the line graph to display different time intervals
 
 ### Database storage
@@ -31,8 +31,8 @@ Enter your device details in the `SSE device` nodes. If using another sensor lik
 - Change the data logging frequency
 
 ### Alerts
-- set your desired min/max temperatures that will tigger the alert
-- hook to IFTTT account
+- Set your desired min/max temperatures that will tigger the alert
+- Hook to IFTTT account
 
 ###  Health of Temperature Sensor
 - This is dependant on the temperature sensor type that is used. Here, LM35 is used. Change the error vlaue depending on the type of sensor you are using, which can be found on the product's data sheet
