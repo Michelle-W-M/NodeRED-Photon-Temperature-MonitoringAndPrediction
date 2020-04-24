@@ -1,4 +1,5 @@
 # NodeRED-Photon-TempMonitoring
+By M. W. Marzucco
 Using IBM Cloud's NodeRED and a Particle Photon microcontroller, monitor temperature and receive predictions
 
 ## This is the NodeRED flow for a laboratory temperature monitoring system
@@ -17,8 +18,8 @@ Enter your device details in the `SSE device` nodes. If using another sensor lik
 1. Dashboard visuals of current temperature and temperature over time
 2. Dtabase storage in Cloudant (feature of IBM Cloud)
 3. Alerts
-  1. Alert on the Dashboard
-  2. Email Alert through IFTTT
+   1. Alert on the Dashboard
+   2. Email Alert through IFTTT
 4. Health status of the temperature sensor
 5. Prediction of when the instrument will need claibration
 
