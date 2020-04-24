@@ -1,4 +1,4 @@
-# NodeRED-Photon-TempMonitoring
+# NodeRED-Photon-Temperature-MonitoringAndPrediction
 By M. W. Marzucco
 
 Using IBM Cloud's NodeRED and a Particle Photon microcontroller, monitor temperature and receive predictions
