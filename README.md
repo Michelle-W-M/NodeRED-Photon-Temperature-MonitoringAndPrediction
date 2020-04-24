@@ -35,7 +35,7 @@ Enter your device details in the `SSE device` nodes. If using another sensor lik
 - Hook to IFTTT account
 
 ###  Health of Temperature Sensor
-- This is dependant on the temperature sensor type that is used. Here, LM35 is used. Change the error vlaue depending on the type of sensor you are using, which can be found on the product's data sheet
+- This is dependant on the temperature sensor type that is used. Here, LM35 is used. Change the vlaue in the `Percent Error` node depending on the type of sensor you are using, which can be found on the product's data sheet
 
 ###  Predictions
 - The max/min temperatures can be set in the `Output a prediction` node 
